@@ -21,8 +21,9 @@ const instructions = document.getElementById("instructions")
 function today(){
     let today = new Date()
     
-    instructions.innerHTML = `<em><span id="quotes">" </span> Lets get organized!
-    Today is ${today.toLocaleDateString("en-US")}. 
+    instructions.innerHTML = `<em><span id="quotes">" </span> Lets get organized! 
+
+    Today is ${today.toLocaleDateString("en-US")}.
     <h4>Delete an item by tapping on it.
     <span id=quotes>"</quotes>
     </h4></em>` 
