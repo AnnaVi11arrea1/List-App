@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(48, 2, 63);
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 320px;
+    margin: 30px auto;
+    background-image: radial-gradient(rgb(44, 2, 104), rgb(0, 0, 111), rgba(0, 0, 111, 0.483),transparent);
+    padding: 30px 20px;
+}
+
+.icon {
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+h1 {
+   font-family: "Sedgwick Ave Display", cursive;
+   font-weight: 400;
+   font-style: normal;
+   color: rgb(145, 254, 254);
+   
+}
+
+#instructions {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+p {
+    color: white;
+    line-height: .1rem;   
+}
+
+#quotes {
+    font-size: 2rem;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    border: 0;
+    margin: 10px 0;
+}
+
+input:active {
+    border: 0;
+    box-shadow: 0 0 20px white;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #0447c4;
+    border: 0;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #04b5e1;
+    color:#432000;
+    cursor: poiner;
+}
+
+button:active {
+    border: 0;
+    box-shadow: 0 0 20px white;
+}
+
+ul {
+    color: rgb(210, 210, 210);
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+
+
+li {
+    background-color: darkmagenta;
+    padding: 15px;
+    border-radius: 20px;
+    flex: 1 1 auto;  
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+li:hover {
+    background-color: #f0a0d8;
+    color:#810c5e;  
+    cursor: poiner;
+}
+
+li:active {
+    border: 0;
+    box-shadow: 0 0 20px white;
+}
